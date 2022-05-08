@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/llAcerca"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/background_animation">
+
+    <include layout="@layout/toolbar_back"/>
+
+    <ImageView android:src="@mipmap/logo_negro"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:paddingBottom="20dp"
+        android:contentDescription="@string/app_name" />
+
+    <TextView android:text="@string/PGL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:fontFamily="@font/fura_code_mono" />
+
+    <TextView android:text="@string/yo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:fontFamily="@font/fura_code_mono" />
+
+</LinearLayout>

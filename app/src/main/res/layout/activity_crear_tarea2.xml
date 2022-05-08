@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3">
+
+    <include layout="@layout/toolbar_back"/>
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:padding="@android:dimen/app_icon_size">
+
+        <TextView android:text="@string/des2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@android:dimen/app_icon_size"
+            android:textColor="@color/white"
+            android:textSize="43sp"
+            android:fontFamily="@font/fura_code_mono" />
+
+        <Space android:layout_width="wrap_content"
+            android:layout_height="@android:dimen/app_icon_size" />
+
+        <EditText android:id="@+id/etDesCre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/eDes"
+            android:inputType="textMultiLine"
+            android:importantForAutofill="no"
+            android:maxLength="100"
+            android:padding="10dp"
+            android:background="@drawable/et_login" />
+
+        <Space android:layout_width="wrap_content"
+            android:layout_height="@android:dimen/app_icon_size" />
+        <Space android:layout_width="wrap_content"
+            android:layout_height="@android:dimen/app_icon_size" />
+
+        <Button android:id="@+id/btnSig2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/sig"
+            app:backgroundTint="@color/color1"
+            android:background="@drawable/btn_rounded"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

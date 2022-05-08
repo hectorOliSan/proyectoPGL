@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout_conf">
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color1">
+
+        <include layout="@layout/toolbar"/>
+
+        <LinearLayout android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:padding="@android:dimen/app_icon_size">
+
+            <TextView android:text="@string/conf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="40sp"
+                android:fontFamily="@font/fura_code_mono" />
+
+            <Space android:layout_width="wrap_content"
+                android:layout_height="@android:dimen/app_icon_size" />
+
+            <EditText android:id="@+id/etNomConf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/nom"
+                android:inputType="textCapWords"
+                android:importantForAutofill="no"
+                android:padding="10dp"
+                android:background="@drawable/et_login" />
+
+            <Space android:layout_width="0dp"
+                android:layout_height="20dp" />
+
+            <EditText android:id="@+id/etApConf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ap"
+                android:inputType="textCapWords"
+                android:importantForAutofill="no"
+                android:padding="10dp"
+                android:background="@drawable/et_login" />
+
+            <Space android:layout_width="0dp"
+                android:layout_height="20dp" />
+
+            <EditText android:id="@+id/etMailConf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/mail"
+                android:inputType="textEmailAddress"
+                android:importantForAutofill="no"
+                android:padding="10dp"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_user"
+                android:background="@drawable/et_login" />
+
+            <Space android:layout_width="0dp"
+                android:layout_height="20dp" />
+
+            <EditText android:id="@+id/etConConf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/con"
+                android:inputType="textPassword"
+                android:importantForAutofill="no"
+                android:padding="10dp"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_lock"
+                android:background="@drawable/et_login" />
+
+            <Space android:layout_width="wrap_content"
+                android:layout_height="@android:dimen/app_icon_size" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <Button android:id="@+id/btnConfElim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/elim"
+                    app:backgroundTint="@color/color10"
+                    android:background="@drawable/btn_rounded"/>
+
+                <Space
+                    android:layout_width="45dp"
+                    android:layout_height="0dp" />
+
+                <Button android:id="@+id/btnConfGuardar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/guardar"
+                    app:backgroundTint="@color/color6"
+                    android:background="@drawable/btn_rounded"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/white">
+
+        <include layout="@layout/nav_drawer"/>
+
+    </RelativeLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>
+

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/drawable/background1.xml" value="0.107" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/drawable/background2.xml" value="0.107" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/drawable/background3.xml" value="0.107" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/drawable/background4.xml" value="0.107" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/drawable/background_animation.xml" value="0.107" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/drawable/btn_login.xml" value="0.1845" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/drawable/btn_rounded.xml" value="0.1845" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/drawable/et_login.xml" value="0.1845" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/drawable/fBtn.xml" value="0.1845" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/drawable/f_btn.xml" value="0.1845" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/drawable/floating_btn.xml" value="0.1845" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/drawable/ic_add.xml" value="0.107" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/drawable/ic_arrows.xml" value="0.1845" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/drawable/ic_edit.xml" value="0.1" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/drawable/ic_history.xml" value="0.1845" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/drawable/ic_menu.xml" value="0.1845" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/drawable/ic_menu_camera.xml" value="0.1" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.1" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.1" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/drawable/ic_trash.xml" value="0.1845" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/drawable/ic_user.xml" value="0.1" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/drawable/img_rounded.xml" value="0.1845" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/drawable/item.xml" value="0.1845" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/drawable/side_nav_bar.xml" value="0.1" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/layout/activity_acerca.xml" value="0.264" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/layout/activity_conf.xml" value="0.25" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/layout/activity_crear_tarea.xml" value="0.25" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/layout/activity_crear_tarea1.xml" value="0.25" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/layout/activity_crear_tarea2.xml" value="0.25" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/layout/activity_crear_tarea3.xml" value="0.25" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/layout/activity_editar_tarea.xml" value="0.25" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/layout/activity_lista.xml" value="0.2" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/layout/activity_lista2.xml" value="0.25" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/layout/activity_mostrar_tarea.xml" value="0.25" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/layout/activity_registro.xml" value="0.25" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/layout/app_bar_main.xml" value="0.176" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/layout/content_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/layout/item_tarea.xml" value="0.25" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/layout/main_toolbar.xml" value="0.1" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/layout/nav_drawer.xml" value="0.264" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/layout/nav_header_main.xml" value="0.25" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/layout/toolbar.xml" value="0.25" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/layout/toolbar_back.xml" value="0.25" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/layout/toolbar_login.xml" value="0.25" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/menu/activity_main_drawer.xml" value="0.25" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/menu/main.xml" value="0.1" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/menu/menu_lista.xml" value="0.264" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/menu/menu_login.xml" value="0.25" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/menu/menu_tarea.xml" value="0.25" />
+        <entry key="..\:/Users/Hector/AndroidStudioProjects/Proyecto_PGL_v2/app/src/main/res/menu/opc_spinner.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

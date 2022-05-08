@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3">
+
+    <include layout="@layout/toolbar_back"/>
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:paddingStart="@android:dimen/app_icon_size"
+        android:paddingEnd="@android:dimen/app_icon_size">
+
+        <TextView android:text="@string/editar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="@android:dimen/app_icon_size"
+            android:textSize="@android:dimen/app_icon_size"
+            android:fontFamily="@font/fura_code_mono" />
+
+        <Space android:layout_width="wrap_content"
+            android:layout_height="@android:dimen/app_icon_size" />
+
+        <EditText android:id="@+id/etTitEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/eTit"
+            android:inputType="textCapWords"
+            android:importantForAutofill="no"
+            android:maxLength="20"
+            android:padding="10dp"
+            android:background="@drawable/et_login" />
+
+        <Space android:layout_width="wrap_content"
+            android:layout_height="20dp" />
+
+        <EditText android:id="@+id/etDesEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/eDes"
+            android:inputType="textMultiLine"
+            android:importantForAutofill="no"
+            android:maxLength="100"
+            android:padding="10dp"
+            android:background="@drawable/et_login" />
+
+        <Space android:layout_width="wrap_content"
+            android:layout_height="20dp" />
+
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView android:text="@string/fe2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black" />
+
+            <!-- LAS ÚLTIMAS 3 LÍNEAS SON PARA QUE NO APAREZCA EL TECLADO AL CLICKARLO -->
+            <EditText android:id="@+id/etFeEdit"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:inputType="date"
+                android:importantForAutofill="no"
+                android:hint="@string/formato"
+                android:padding="10dp"
+                android:background="@drawable/et_login"
+                android:focusableInTouchMode="true"
+                android:cursorVisible="false"
+                android:focusable="false" />
+
+        </LinearLayout>
+
+        <Space android:layout_width="wrap_content"
+            android:layout_height="@android:dimen/app_icon_size" />
+
+        <Button android:id="@+id/btnGuardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/guardar"
+            app:backgroundTint="@color/color6"
+            android:background="@drawable/btn_rounded"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -48,8 +48,7 @@
             android:padding="10dp"
             android:drawablePadding="10dp"
             android:drawableStart="@drawable/ic_user"
-            android:background="@drawable/et_login"
-            android:text="h@ieselrincon.es"/>
+            android:background="@drawable/et_login"/>
 
         <Space android:layout_width="0dp"
             android:layout_height="20dp" />
@@ -63,8 +62,7 @@
             android:padding="10dp"
             android:drawablePadding="10dp"
             android:drawableStart="@drawable/ic_lock"
-            android:background="@drawable/et_login"
-            android:text="Admin123"/>
+            android:background="@drawable/et_login"/>
 
         <Space android:layout_width="0dp"
             android:layout_height="@android:dimen/app_icon_size" />
